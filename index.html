@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work To-Dos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WORK TO-DOs</h1>
+        <p>Enter text into the input field to add items to your list.</p>
+        <p>Click the item to mark it as complete.</p>
+        <p>Click the "X" to remove the item from your list.</p>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="New item..." required/>
+            <textarea id="todo-description" placeholder="Description..." required></textarea>
+            <input type="date" id="todo-due-date" required/>
+            <button type="submit" id="add-btn">Add Task</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
